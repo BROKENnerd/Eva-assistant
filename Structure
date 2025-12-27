@@ -1,0 +1,20 @@
+EVA_Project/
+│
+├── .env                  <-- [Contains API Key. NEVER COMMIT THIS]
+├── .gitignore            <-- [New file we will make]
+├── main.py               <-- [The Brain + Natural Logic]
+├── requirements.txt      <-- [List of Python Libraries]
+├── README.md             <-- [Optional: Project details]
+│
+├── modules/              <-- [Code Logic Folder]
+│   ├── __init__.py       <-- [Empty file]
+│   ├── audio_engine.py   <-- [The Ears - Turbo VAD]
+│   └── tools.py          <-- [The Hands - File Editor]
+│
+├── fillers/              <-- [Generated sounds like 'Umm', 'Acha']
+│   └── (mp3 files...)    <-- [We will ignore these in Git]
+│
+├── sandbox/              <-- [Where EVA creates/edits files]
+│   └── (user files...)   <-- [We will ignore these in Git]
+│
+└── venv/                 <-- [Virtual Environment - Ignore this]
