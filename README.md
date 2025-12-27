@@ -1,5 +1,3 @@
-# Eva-assistant
-A voice-activated AI companion inspired by WALL-E's EVA. Powered by DeepSeek/OpenAI, capable of real-time conversation, emotional reactions, and autonomous file management.
 # EVA Assistant (Extraterrestrial/Virtual Assistant) 🌱
 
 **"Directive?"**
@@ -16,3 +14,25 @@ EVA is a lightweight, voice-controlled AI assistant inspired by the sleek and re
 * Raspberry Pi 4B (2GB+) / PC
 * Microphone (e.g., INMP441)
 * Speakers
+
+setup.sh (One-Click Installer)
+​Agar aap git repo mein ye file bhi daal denge, to future mein install karna bahut aasaan ho jayega.
+​File banayein: nano setup.sh
+​Paste karein:
+#!/bin/bash
+
+echo "🔵 Installing System Tools (SoX, MPG123)..."
+sudo apt update
+sudo apt install python3-pip sox libsox-fmt-all mpg123 flac -y
+
+echo "🔵 Installing Python Libraries..."
+pip install -r requirements.txt
+
+echo "✅ Setup Complete! Run with: python main.py"
+________-----_____
+execute it
+chmod +x setup.sh
+
+
+
+
